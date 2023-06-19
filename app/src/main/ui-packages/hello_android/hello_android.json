@@ -1,0 +1,84 @@
+{
+  "name": "hello_android",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "4witM43Qgu962tCDhSoaIX",
+    "node": "2:5",
+    "version": "3679862264",
+    "component-id": "879589f0ecd9548d4df4721eefa6a10872dd0502"
+  },
+  "default": "Hello Android",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "Hello Android"
+      }
+    ],
+    "modes": {
+      "Hello Android": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Hello Android"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Hello Android",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "600.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Hello Android",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "15.0",
+            "line-height": "1.2102272033691406",
+            "typeface": "Inter"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "Text": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Hello Android",
+      "size": {
+        "width": 218.0,
+        "height": 49.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
