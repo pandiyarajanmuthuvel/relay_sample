@@ -1,0 +1,78 @@
+{
+  "name": "hello_world",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "HdB4pnqCOxtZaIcOhqa4Qw",
+    "node": "2:5",
+    "version": "3680467909",
+    "component-id": "b1f9850021933d86396b48b5b16fd91ddf652e2d"
+  },
+  "default": "Hello world",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "Hello world"
+      }
+    ],
+    "modes": {
+      "Hello world": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Hello world"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Hello world",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "font-weight": "500.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Hello world",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "20.0",
+            "line-height": "1.2102272033691406",
+            "typeface": "Inter"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Hello world",
+      "size": {
+        "width": 180.0,
+        "height": 41.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
